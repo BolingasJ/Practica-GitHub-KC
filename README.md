@@ -3,7 +3,8 @@ Repositorio de la práctica de la clase de Git en el Bootcamp de mobile
 
 
 •	¿Qué comando utilizaste en el paso 11? ¿Por qué? 
-git reset --hard HEAD~1 porque es la forma en la que muevo la rama styled al commit anterior perdiendo los cambios realizados en el working copy
+git reset --hard HEAD~1, porque es la forma en la que muevo la rama styled al commit anterior 
+perdiendo los cambios realizados en el working copy
 
 •	¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué? 
 Primero un git reflog para identificar el último comit en donde estaba el archivo modificado y luego de identificarlo (334572c), se hace un git reset --hard 334572c y tiene que ser hard para que modifique el working copy.
